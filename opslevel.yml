@@ -12,6 +12,8 @@ service:
   description: Generates recommendations
   aliases:
   tags:
+  - key: alice
+    value: wonderland
   repositories:
   - name: alan-opslevel-testing/another-test
     path: "/"
